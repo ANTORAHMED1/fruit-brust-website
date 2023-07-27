@@ -144,19 +144,254 @@
               </div>
          </div>
               <!-- header hard section -->
-              <div class="ml-[60px] flex justify-center">
-                <div class="card card-side w-[800px] bg-red-500  flex justify-center">
-                  <figure><img src="/images/fruit1.png" alt="Movie"/></figure>
-                  <figure><img src="/images/fruit2.png" alt="Movie"/></figure>
-                  <figure><img src="/images/fruit3.png" alt="Movie"/></figure> 
-                  <figure><img src="/images/fruit4.png" alt="Movie"/></figure>
-                  <figure><img src="/images/fruit5.png" alt="Movie"/></figure> 
-                </div>
+              <div class="ml-[60px] -mt-16 flex justify-center md:container md:mx-auto">
+                <div class="card card-side w-[800px] bg-slate-50 gap-3 flex justify-center">
+                  <div>
+                    <figure><img src="/images/fruit1.png" alt="Movie"/></figure>
+                    <p class="text-center">Strawberry</p>
+                  </div>
+                  <div>
+                    <figure><img src="/images/fruit2.png" alt="Movie"/></figure>
+                    <p class="text-center">Orange</p>
+                  </div>
+                  <div>
+                    <figure><img src="/images/fruit3.png" alt="Movie"/></figure>
+                    <p class="text-center">Mango</p>
+                  </div>
+                  <div>
+                    <figure><img src="/images/fruit4.png" alt="Movie"/></figure>
+                    <p class="text-center">Strawberry</p>
+                  </div>
+                  <div>
+                    <figure><img src="/images/fruit5.png" alt="Movie"/></figure>
+                    <p class="text-center">Mango</p>
+                  </div>
               </div>
         </div>
     </header>
     <main>
+      <!-- deal of the day section -->
+       <section class=" lg:container md:container lg:mx-auto md:mx-auto">
+        <div>
+          <!-- menu -->
+             <div class="flex flex-1 flex-col lg:flex-row md:flex-row mt-[40px] lg:mt-[120px] justify-between">
+                 <div>
+                    <h1 class="text-5xl">Deal of the day</h1>
+                    <p class="lg:w-[600px] md:w-[600px] text-base mt-3">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                 </div> 
+                 <div>
+                  <div class="flex gap-5 mt-4">
+                    <div class="flex">
+                      <div>
+                        <span class="countdown font-mono text-4xl">
+                          <span style="--value:29;"></span>
+                        </span>
+                        <p class="text-base">days</p>
+                      </div>
+                         <div>
+                          <img src="images/Frame.svg" alt="">
+                        </div> 
+                   </div>
+                      <div class="flex">
+                        <div>
+                          <span class="countdown font-mono text-4xl">
+                            <span style="--value:15;"></span>
+                          </span>
+                          <p class="text-base">hours</p>
+                          
+                        </div>
+                           <div>
+                            <img src="images/Frame.svg" alt="">
+                          </div> 
+                        </div>
 
+                        <div class="flex">
+                          <div>
+                            <span class="countdown font-mono text-4xl">
+                              <span style="--value:25;"></span>
+                            </span>
+                            <p class="text-base">min</p>
+                            
+                          </div>
+                             <div>
+                              <img src="images/Frame.svg" alt="">
+                            </div> 
+                          </div>
+                        <div>
+                            <div>
+                              <span class="countdown font-mono text-4xl">
+                                <span style="--value:09;"></span>
+                              </span>
+                              <p class="text-base">sec</p>
+                              
+                            </div>
+                          </div>
+                 </div>
+             </div>
+            </div>
+             <!-- card -->
+             <div>
+              <div class="flex flex-col lg:flex-row md:flex-row">
+                <!-- card1 -->
+                   <div>
+                    <div class="card w-96 bg-base-100 shadow-xl">
+                      <figure class="px-10 pt-10">
+                        <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                      </figure>
+                      <div class="card-body items-center text-center">
+                        <h2 class="card-title">12.90$ - 18.85$</h2>
+                         <p>Apples</p>
+                         <hr>
+                         <img src="images/Group 24.svg" alt="">
+                        <div class="card-actions">
+                          <!-- Open the modal using ID.showModal() method -->
+                           <button class="btn text-red-400 text-sm" onclick="my_modal_1.showModal()">details</button>
+                            <dialog id="my_modal_1" class="modal">
+                            <form method="dialog" class="modal-box">
+                              <figure class="px-10 pt-10">
+                                <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                              </figure>
+                                <h3 class="font-bold text-lg">Red Dragon</h3>
+                               <p class="py-4">Professional employees are there for you to 
+                                pick the most amazing and fresh fruits.</p>
+                               <figure class="px-10 pt-10">
+                               <img src="images/Group 24.svg" alt="">
+                              </figure>
+                                <div class="modal-action">
+                                <!-- if there is a button in form, it will close the modal -->
+                                <button class="btn">Close</button>
+                                 <button class="btn bg-red-500">Buy now</button>
+                            </div>
+                            </form>
+                           </dialog>
+                          </div>
+                        </div>
+                    </div>
+                   </div>
+                 
+                        
+                           <!-- card2 -->
+    <div>
+      <div class="card w-96 bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">12.90$ - 18.85$</h2>
+           <p>Apples</p>
+           <hr>
+           <img src="images/Group 24.svg" alt="">
+          <div class="card-actions">
+            <!-- Open the modal using ID.showModal() method -->
+             <button class="btn text-red-400 text-sm" onclick="my_modal_1.showModal()">details</button>
+              <dialog id="my_modal_1" class="modal">
+              <form method="dialog" class="modal-box">
+                <figure class="px-10 pt-10">
+                  <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                  <h3 class="font-bold text-lg">Red Dragon</h3>
+                 <p class="py-4">Professional employees are there for you to 
+                  pick the most amazing and fresh fruits.</p>
+                 <figure class="px-10 pt-10">
+                 <img src="images/Group 24.svg" alt="">
+                </figure>
+                  <div class="modal-action">
+                  <!-- if there is a button in form, it will close the modal -->
+                  <button class="btn">Close</button>
+                   <button class="btn bg-red-500">Buy now</button>
+              </div>
+              </form>
+             </dialog>
+            </div>
+          </div>
+      </div>
+     </div>
+
+              
+                      
+                         <!-- card3 -->
+    <div>
+      <div class="card w-96 bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">12.90$ - 18.85$</h2>
+           <p>Apples</p>
+           <hr>
+           <img src="images/Group 24.svg" alt="">
+          <div class="card-actions">
+            <!-- Open the modal using ID.showModal() method -->
+             <button class="btn text-red-400 text-sm" onclick="my_modal_1.showModal()">details</button>
+              <dialog id="my_modal_1" class="modal">
+              <form method="dialog" class="modal-box">
+                <figure class="px-10 pt-10">
+                  <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                  <h3 class="font-bold text-lg">Red Dragon</h3>
+                 <p class="py-4">Professional employees are there for you to 
+                  pick the most amazing and fresh fruits.</p>
+                 <figure class="px-10 pt-10">
+                 <img src="images/Group 24.svg" alt="">
+                </figure>
+                  <div class="modal-action">
+                  <!-- if there is a button in form, it will close the modal -->
+                  <button class="btn">Close</button>
+                   <button class="btn bg-red-500">Buy now</button>
+              </div>
+              </form>
+             </dialog>
+            </div>
+          </div>
+      </div>
+     </div>
+  
+              
+                    
+                           <!-- card4 -->
+    <div>
+      <div class="card w-96 bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">12.90$ - 18.85$</h2>
+           <p>Apples</p>
+           <hr>
+           <img src="images/Group 24.svg" alt="">
+          <div class="card-actions">
+            <!-- Open the modal using ID.showModal() method -->
+             <button class="btn text-red-400 text-sm" onclick="my_modal_1.showModal()">details</button>
+              <dialog id="my_modal_1" class="modal">
+              <form method="dialog" class="modal-box">
+                <figure class="px-10 pt-10">
+                  <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                  <h3 class="font-bold text-lg">Red Dragon</h3>
+                 <p class="py-4">Professional employees are there for you to 
+                  pick the most amazing and fresh fruits.</p>
+                 <figure class="px-10 pt-10">
+                 <img src="images/Group 24.svg" alt="">
+                </figure>
+                  <div class="modal-action">
+                  <!-- if there is a button in form, it will close the modal -->
+                  <button class="btn">Close</button>
+                   <button class="btn bg-red-500">Buy now</button>
+              </div>
+              </form>
+             </dialog>
+              </div>
+             </div>
+            </div>
+         </div>
+
+            
+          </div>
+                  <div class="flex justify-center mt-4">
+                  <button class=" btn bg-red-500">Shop All</button>
+                  </div>  
+     </div>  
+    </section>
     </main>
     <footer>
 
